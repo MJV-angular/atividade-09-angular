@@ -1,0 +1,32 @@
+<mat-spinner *ngIf="todoState.loading; else loaded"></mat-spinner>
+<ng-template #loaded>
+  <ng-container *ngIf="todoState.todo">
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Completed</th>
+          <th>Favorited</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ todoState.todo.title }}</td>
+          <td>
+            <mat-icon>{{
+              todoState.todo.isCompleted ? "check" : "check_box_outline_blank"
+            }}</mat-icon>
+          </td>
+          <td>
+            <mat-icon>{{
+              todoState.todo.isFavorited ? "favorite" : "favorite_border"
+            }}</mat-icon>
+          </td>
+          <td>{{ todoState.todo.description }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </ng-container>
+</ng-template>
+

@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "id": "a6394636-490f-4922-8f94-868760c738fa",
+      "title": "Tarefa 1",
+      "isCompleted": true,
+      "isFavorited": true,
+      "description": "Descrição tarefa 1",
+      "isSaving": false
+    },
+    {
+      "id": "ec1e30b5-6920-4cdb-a827-69700b1aa898",
+      "title": "Tarefa 2",
+      "isCompleted": true,
+      "isFavorited": true,
+      "description": "Descrição tarefa 2",
+      "isSaving": false
+    },
+    {
+      "id": "49d7b765-9a02-43c8-80a5-dd31f8735021",
+      "title": "Tarefa 3",
+      "isCompleted": true,
+      "isFavorited": true,
+      "description": "Descrição tarefa 3",
+      "isSaving": false
+    },
+    {
+      "id": "e290454f-f7c0-4659-a8d9-62880ee19182",
+      "title": "Tarefa 4",
+      "isCompleted": true,
+      "isFavorited": true,
+      "description": "Descrição tarefa 4",
+      "isSaving": false
+    },
+    {
+      "id": "4d5d92cb-cbfc-41cb-af06-f87b9092eebe",
+      "title": "Tarefa 5",
+      "isCompleted": true,
+      "isFavorited": true,
+      "description": "Descrição tarefa 5",
+      "isSaving": false
+    }
+  ]
+}
